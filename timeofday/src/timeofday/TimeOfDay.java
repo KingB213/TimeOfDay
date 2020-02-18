@@ -24,5 +24,8 @@ public class TimeOfDay {
 	 */
 	
 	void setMinutes(int minutes) {this.minutes = minutes;}
-
-}
+	
+	public TimeOfDay(int hours, int minutes) {
+		this.hours = hours;
+		this.minutes = minutes;}
+	}
